@@ -95,7 +95,7 @@ export default function ChatAI() {
           />
           <button
             type="submit"
-            className="ml-2 bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 disabled:bg-orange-400"
+            className="ml-2 bg-orange-600 text-black px-4 py-2 rounded-lg hover:bg-orange-700 disabled:bg-orange-400"
             disabled={loading}
           >
             {loading ? "..." : "Send"}
